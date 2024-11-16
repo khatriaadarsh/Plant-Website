@@ -18,3 +18,20 @@ h1 {
 .nav-link:hover {
   @apply text-yellow-500;
 }
+
+/* Button */
+.btn {
+  @apply border border-yellow-400 bg-yellow-500 px-5 py-2 rounded-md duration-300;
+}
+.btn span{
+  @apply font-bold
+}
+.btn:hover{
+  @apply opacity-85
+}
+.btn-outline{
+  @apply bg-transparent
+}
+.btn-outline:hover{
+  @apply bg-yellow-500
+}
