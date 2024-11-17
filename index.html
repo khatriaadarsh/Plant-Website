@@ -48,8 +48,18 @@
 
     <main>
       <!-- Home -->
-      <section>
+      <section id="home" class="relative">
         <div class="container">
+          <!-- Blob 1 -->
+          <div
+            class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
+          ></div>
+
+          <!-- Blob 2 -->
+          <div
+            class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-0 lg:bottom-10"
+          ></div>
+
           <div class="flex flex-col items-center gap-5 lg:flex-row">
             <!-- Content -->
             <div class="w-full space-y-5 lg:w-1/2">
@@ -64,7 +74,9 @@
                 Distinctio fugiat eveniet, reprehenderit veritatis aut explicabo
                 voluptatum ullam itaque tenetur numquam!
               </p>
-              <div class="flex flex-col gap-2 sm:flex-row">
+              <div
+                class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10"
+              >
                 <button class="btn">
                   <span>Shop Now</span>
                   <i class="ri-leaf-line"></i>
@@ -77,30 +89,46 @@
               <p class="text-xs font-Lobstor text-slate-300">
                 You will get 30-days free trial.
               </p>
-              <div class="flex items-center gap-5 text-lg">
-                <i class="ri-facebook-fill text-slate-300 cursor-pointer hover:text-yellow-500 duration-300 "></i>
-                <i class="ri-twitter-x-line text-slate-300 cursor-pointer hover:text-yellow-500 duration-300 "></i>
-                <i class="ri-instagram-line text-slate-300 cursor-pointer hover:text-yellow-500 duration-300 "></i>
-                <i class="ri-linkedin-fill text-slate-300 cursor-pointer hover:text-yellow-500 duration-300 "></i>
+              <div class="flex items-center gap-5 text-lg lg:pt-8">
+                <i
+                  class="ri-facebook-fill text-slate-300 cursor-pointer hover:text-yellow-500 duration-300"
+                ></i>
+                <i
+                  class="ri-twitter-x-line text-slate-300 cursor-pointer hover:text-yellow-500 duration-300"
+                ></i>
+                <i
+                  class="ri-instagram-line text-slate-300 cursor-pointer hover:text-yellow-500 duration-300"
+                ></i>
+                <i
+                  class="ri-linkedin-fill text-slate-300 cursor-pointer hover:text-yellow-500 duration-300"
+                ></i>
               </div>
             </div>
 
             <!-- Image -->
             <div class="w-full relative lg:w-1/2">
               <img src="./images/home.png" alt="home-image" />
-              <div>
-                <i class="ri-leaf-line"></i>
+              <div
+                class="absolute -top-8 right-0 opacity-30 animate-movingY xl:top-5"
+              >
+                <i class="ri-leaf-line text-6xl text-yellow-500"></i>
               </div>
-              <div>
-                <i class="ri-flower-line"></i>
+              <div
+                class="absolute bottom-0 left-0 opacity-30 xl:bottom-12 animate-rotating"
+              >
+                <i class="ri-flower-line text-6xl text-yellow-500"></i>
               </div>
-              <div>
-                <i class="ri-plant-line"></i>
+              <div
+                class="hidden absolute -top-8 -left-5 opacity-30 lg:block animate-scalingUp"
+              >
+                <i class="ri-plant-line text-6xl text-yellow-500"></i>
               </div>
             </div>
           </div>
         </div>
       </section>
+
+      <!-- Services -->
     </main>
     <script src="./script.js"></script>
   </body>
