@@ -45,6 +45,6 @@ h3 {
   @apply bg-yellow-500;
 }
 
-.popular_card:hover img{
-   @apply -top-8 cursor-pointer
+.popular_card:hover img {
+  @apply -top-8;
 }
