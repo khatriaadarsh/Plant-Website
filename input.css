@@ -48,3 +48,7 @@ h3 {
 .popular_card:hover img {
   @apply -top-8;
 }
+
+.swiper-pagination-bullet {
+  @apply bg-green-300 w-3 h-3
+}
