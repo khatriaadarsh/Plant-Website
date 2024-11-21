@@ -10,6 +10,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.min.css"
     />
+    <!-- Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link href="./output.css" rel="stylesheet" />
     <title>Plants Webiste - TailwindCSS</title>
     <link rel="stylesheet" href="output.css" />
@@ -409,7 +414,115 @@
           </div>
         </div>
       </section>
+
+      <!--Reviews  -->
+      <section id="reviews">
+        <div class="flex flex-col items-center gap-3 text-center mb-10">
+          <h2 class="text-yellow-500 font-Lobstor">Customer Reviews</h2>
+          <p class="max-w-2xl">Follow insturction for more</p>
+        </div>
+
+        <div class="container">
+          <div class="swiper py-12">
+            <ul class="swiper-wrapper">
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                  <p class="font-Lobstor">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique culpa ut amet voluptas asperiores alias sed
+                    consequatur.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="./images/review-1.jpg"
+                      alt="review_image01"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-3">
+                      <p class="text-yellow-500 uppercase">Johon Deo</p>
+                      <p>Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                  <p class="font-Lobstor">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique culpa ut amet voluptas asperiores alias sed
+                    consequatur.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="./images/review-2.jpg"
+                      alt="review_image01"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-3">
+                      <p class="text-yellow-500 uppercase">Johon Deo</p>
+                      <p>Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                  <p class="font-Lobstor">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique culpa ut amet voluptas asperiores alias sed
+                    consequatur.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="./images/review-3.jpg"
+                      alt="review_image01"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-3">
+                      <p class="text-yellow-500 uppercase">Johon Deo</p>
+                      <p>Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+
+              <li class="swiper-slide">
+                <div class="flex flex-col gap-5 bg-green-900 rounded-md p-6">
+                  <p class="font-Lobstor">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique culpa ut amet voluptas asperiores alias sed
+                    consequatur.
+                  </p>
+                  <div class="flex items-center">
+                    <img
+                      src="./images/review-4.jpg"
+                      alt="review_image01"
+                      class="w-12 h-12 rounded-full"
+                    />
+                    <div class="ml-3">
+                      <p class="text-yellow-500 uppercase">Johon Deo</p>
+                      <p>Designer</p>
+                    </div>
+                    <i class="ri-double-quotes-r text-3xl ml-auto"></i>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <!-- Swiper's js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Scriptjs -->
     <script src="./script.js"></script>
   </body>
 </html>
