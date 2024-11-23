@@ -86,3 +86,15 @@ window.addEventListener("scroll", () => {
     }
   });
 });
+
+// Scroll Reveal Animation
+
+const sr = scrollReavel({
+  origin: "top",
+  distance: "60px",
+  duration: 2500,
+  delay: 300,
+  reset: true,
+});
+
+sr.reveal(`.home__data`);
